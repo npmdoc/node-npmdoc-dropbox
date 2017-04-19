@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,15 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-    >dropbox (v2.5.2)</a>
+    <a>dropbox (v2.5.2)</a>
 </h1>
 <h4>The Dropbox JavaScript SDK is a lightweight, promise based interface to the Dropbox v2 API that works in both nodejs and browser environments.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.dropbox">module dropbox</a><ol>
 
@@ -2691,7 +2686,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">authTokenFromOauth1 = function (arg) {
-  return this.request(&#x27;auth/token/from_oauth1&#x27;, arg, &#x27;app&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('auth/token/from_oauth1', arg, 'app', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2706,7 +2701,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">authTokenRevoke = function (arg) {
-  return this.request(&#x27;auth/token/revoke&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('auth/token/revoke', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2736,7 +2731,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesAlphaGetMetadata = function (arg) {
-  return this.request(&#x27;files/alpha/get_metadata&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/alpha/get_metadata', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2751,7 +2746,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesAlphaUpload = function (arg) {
-  return this.request(&#x27;files/alpha/upload&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/alpha/upload', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2766,7 +2761,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCopy = function (arg) {
-  return this.request(&#x27;files/copy&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/copy', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2781,7 +2776,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCopyBatch = function (arg) {
-  return this.request(&#x27;files/copy_batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/copy_batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2796,7 +2791,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCopyBatchCheck = function (arg) {
-  return this.request(&#x27;files/copy_batch/check&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/copy_batch/check', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2811,7 +2806,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCopyReferenceGet = function (arg) {
-  return this.request(&#x27;files/copy_reference/get&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/copy_reference/get', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2826,7 +2821,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCopyReferenceSave = function (arg) {
-  return this.request(&#x27;files/copy_reference/save&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/copy_reference/save', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2841,7 +2836,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCreateFolder = function (arg) {
-  return this.request(&#x27;files/create_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/create_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2856,7 +2851,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesDelete = function (arg) {
-  return this.request(&#x27;files/delete&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/delete', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2871,7 +2866,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesDeleteBatch = function (arg) {
-  return this.request(&#x27;files/delete_batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/delete_batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2886,7 +2881,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesDeleteBatchCheck = function (arg) {
-  return this.request(&#x27;files/delete_batch/check&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/delete_batch/check', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2901,7 +2896,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesDownload = function (arg) {
-  return this.request(&#x27;files/download&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;download&#x27;);
+  return this.request('files/download', arg, 'user', 'content', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2916,7 +2911,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesGetMetadata = function (arg) {
-  return this.request(&#x27;files/get_metadata&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/get_metadata', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2931,7 +2926,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesGetPreview = function (arg) {
-  return this.request(&#x27;files/get_preview&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;download&#x27;);
+  return this.request('files/get_preview', arg, 'user', 'content', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2946,7 +2941,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesGetSharedLinkFile = function (arg) {
-  return this.request(&#x27;sharing/get_shared_link_file&#x27;, arg, &#x27;api&#x27;, &#x27;download&#x27;);
+  return this.request('sharing/get_shared_link_file', arg, 'api', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2961,7 +2956,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesGetTemporaryLink = function (arg) {
-  return this.request(&#x27;files/get_temporary_link&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/get_temporary_link', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2976,7 +2971,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesGetThumbnail = function (arg) {
-  return this.request(&#x27;files/get_thumbnail&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;download&#x27;);
+  return this.request('files/get_thumbnail', arg, 'user', 'content', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2991,7 +2986,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesListFolder = function (arg) {
-  return this.request(&#x27;files/list_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/list_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
@@ -2999,9 +2994,9 @@ Use with a module bundler like
 [webpack](https://github.com/webpack/webpack) or
 [browserify](http://browserify.org/):
 ```javascript
-var Dropbox = require(&#x27;dropbox&#x27;);
-var dbx = new Dropbox({ accessToken: &#x27;YOUR_ACCESS_TOKEN_HERE&#x27; });
-dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x27;})
+var Dropbox = require('dropbox');
+var dbx = new Dropbox({ accessToken: 'YOUR_ACCESS_TOKEN_HERE' });
+dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: ''})
   .then(function(response) {
     console.log(response);
   })
@@ -3022,7 +3017,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesListFolderContinue = function (arg) {
-  return this.request(&#x27;files/list_folder/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/list_folder/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3037,7 +3032,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesListFolderGetLatestCursor = function (arg) {
-  return this.request(&#x27;files/list_folder/get_latest_cursor&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/list_folder/get_latest_cursor', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3052,7 +3047,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesListFolderLongpoll = function (arg) {
-  return this.request(&#x27;files/list_folder/longpoll&#x27;, arg, &#x27;noauth&#x27;, &#x27;notify&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/list_folder/longpoll', arg, 'noauth', 'notify', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3067,7 +3062,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesListRevisions = function (arg) {
-  return this.request(&#x27;files/list_revisions&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/list_revisions', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3082,7 +3077,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesMove = function (arg) {
-  return this.request(&#x27;files/move&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/move', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3097,7 +3092,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesMoveBatch = function (arg) {
-  return this.request(&#x27;files/move_batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/move_batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3112,7 +3107,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesMoveBatchCheck = function (arg) {
-  return this.request(&#x27;files/move_batch/check&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/move_batch/check', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3127,7 +3122,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPermanentlyDelete = function (arg) {
-  return this.request(&#x27;files/permanently_delete&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/permanently_delete', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3142,7 +3137,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesAdd = function (arg) {
-  return this.request(&#x27;files/properties/add&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/add', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3157,7 +3152,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesOverwrite = function (arg) {
-  return this.request(&#x27;files/properties/overwrite&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/overwrite', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3172,7 +3167,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesRemove = function (arg) {
-  return this.request(&#x27;files/properties/remove&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/remove', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3187,7 +3182,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesTemplateGet = function (arg) {
-  return this.request(&#x27;files/properties/template/get&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/template/get', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3202,7 +3197,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesTemplateList = function (arg) {
-  return this.request(&#x27;files/properties/template/list&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/template/list', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3217,7 +3212,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesUpdate = function (arg) {
-  return this.request(&#x27;files/properties/update&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/update', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3232,7 +3227,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesRestore = function (arg) {
-  return this.request(&#x27;files/restore&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/restore', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3247,7 +3242,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesSaveUrl = function (arg) {
-  return this.request(&#x27;files/save_url&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/save_url', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3262,7 +3257,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesSaveUrlCheckJobStatus = function (arg) {
-  return this.request(&#x27;files/save_url/check_job_status&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/save_url/check_job_status', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3277,7 +3272,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesSearch = function (arg) {
-  return this.request(&#x27;files/search&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/search', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3292,7 +3287,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUpload = function (arg) {
-  return this.request(&#x27;files/upload&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/upload', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3307,7 +3302,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionAppend = function (arg) {
-  return this.request(&#x27;files/upload_session/append&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/upload_session/append', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3322,7 +3317,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionAppendV2 = function (arg) {
-  return this.request(&#x27;files/upload_session/append_v2&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/upload_session/append_v2', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3337,7 +3332,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionFinish = function (arg) {
-  return this.request(&#x27;files/upload_session/finish&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/upload_session/finish', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3352,7 +3347,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionFinishBatch = function (arg) {
-  return this.request(&#x27;files/upload_session/finish_batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/upload_session/finish_batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3367,7 +3362,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionFinishBatchCheck = function (arg) {
-  return this.request(&#x27;files/upload_session/finish_batch/check&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/upload_session/finish_batch/check', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3382,7 +3377,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionStart = function (arg) {
-  return this.request(&#x27;files/upload_session/start&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/upload_session/start', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3397,7 +3392,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsArchive = function (arg) {
-  return this.request(&#x27;paper/docs/archive&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/archive', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3412,7 +3407,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsDownload = function (arg) {
-  return this.request(&#x27;paper/docs/download&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;download&#x27;);
+  return this.request('paper/docs/download', arg, 'user', 'api', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3427,7 +3422,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsFolderUsersList = function (arg) {
-  return this.request(&#x27;paper/docs/folder_users/list&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/folder_users/list', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3442,7 +3437,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsFolderUsersListContinue = function (arg) {
-  return this.request(&#x27;paper/docs/folder_users/list/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/folder_users/list/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3457,7 +3452,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsGetFolderInfo = function (arg) {
-  return this.request(&#x27;paper/docs/get_folder_info&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/get_folder_info', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3472,7 +3467,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsList = function (arg) {
-  return this.request(&#x27;paper/docs/list&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/list', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3487,7 +3482,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsListContinue = function (arg) {
-  return this.request(&#x27;paper/docs/list/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/list/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3502,7 +3497,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsPermanentlyDelete = function (arg) {
-  return this.request(&#x27;paper/docs/permanently_delete&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/permanently_delete', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3517,7 +3512,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsSharingPolicyGet = function (arg) {
-  return this.request(&#x27;paper/docs/sharing_policy/get&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/sharing_policy/get', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3532,7 +3527,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsSharingPolicySet = function (arg) {
-  return this.request(&#x27;paper/docs/sharing_policy/set&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/sharing_policy/set', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3547,7 +3542,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsUsersAdd = function (arg) {
-  return this.request(&#x27;paper/docs/users/add&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/users/add', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3562,7 +3557,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsUsersList = function (arg) {
-  return this.request(&#x27;paper/docs/users/list&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/users/list', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3577,7 +3572,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsUsersListContinue = function (arg) {
-  return this.request(&#x27;paper/docs/users/list/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/users/list/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3592,7 +3587,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsUsersRemove = function (arg) {
-  return this.request(&#x27;paper/docs/users/remove&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/users/remove', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3607,7 +3602,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingAddFileMember = function (arg) {
-  return this.request(&#x27;sharing/add_file_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/add_file_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3622,7 +3617,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingAddFolderMember = function (arg) {
-  return this.request(&#x27;sharing/add_folder_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/add_folder_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3637,7 +3632,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingChangeFileMemberAccess = function (arg) {
-  return this.request(&#x27;sharing/change_file_member_access&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/change_file_member_access', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3652,7 +3647,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingCheckJobStatus = function (arg) {
-  return this.request(&#x27;sharing/check_job_status&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/check_job_status', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3667,7 +3662,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingCheckRemoveMemberJobStatus = function (arg) {
-  return this.request(&#x27;sharing/check_remove_member_job_status&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/check_remove_member_job_status', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3682,7 +3677,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingCheckShareJobStatus = function (arg) {
-  return this.request(&#x27;sharing/check_share_job_status&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/check_share_job_status', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3697,7 +3692,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingCreateSharedLink = function (arg) {
-  return this.request(&#x27;sharing/create_shared_link&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/create_shared_link', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3712,7 +3707,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingCreateSharedLinkWithSettings = function (arg) {
-  return this.request(&#x27;sharing/create_shared_link_with_settings&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/create_shared_link_with_settings', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3727,7 +3722,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetFileMetadata = function (arg) {
-  return this.request(&#x27;sharing/get_file_metadata&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/get_file_metadata', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3742,7 +3737,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetFileMetadataBatch = function (arg) {
-  return this.request(&#x27;sharing/get_file_metadata/batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/get_file_metadata/batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3757,7 +3752,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetFolderMetadata = function (arg) {
-  return this.request(&#x27;sharing/get_folder_metadata&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/get_folder_metadata', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3772,7 +3767,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetSharedLinkFile = function (arg) {
-  return this.request(&#x27;sharing/get_shared_link_file&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;download&#x27;);
+  return this.request('sharing/get_shared_link_file', arg, 'user', 'content', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3787,7 +3782,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetSharedLinkMetadata = function (arg) {
-  return this.request(&#x27;sharing/get_shared_link_metadata&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/get_shared_link_metadata', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3802,7 +3797,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetSharedLinks = function (arg) {
-  return this.request(&#x27;sharing/get_shared_links&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/get_shared_links', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3817,7 +3812,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFileMembers = function (arg) {
-  return this.request(&#x27;sharing/list_file_members&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_file_members', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3832,7 +3827,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFileMembersBatch = function (arg) {
-  return this.request(&#x27;sharing/list_file_members/batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_file_members/batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3847,7 +3842,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFileMembersContinue = function (arg) {
-  return this.request(&#x27;sharing/list_file_members/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_file_members/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3862,7 +3857,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFolderMembers = function (arg) {
-  return this.request(&#x27;sharing/list_folder_members&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_folder_members', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3877,7 +3872,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFolderMembersContinue = function (arg) {
-  return this.request(&#x27;sharing/list_folder_members/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_folder_members/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3892,7 +3887,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFolders = function (arg) {
-  return this.request(&#x27;sharing/list_folders&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_folders', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3907,7 +3902,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFoldersContinue = function (arg) {
-  return this.request(&#x27;sharing/list_folders/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_folders/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3922,7 +3917,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListMountableFolders = function (arg) {
-  return this.request(&#x27;sharing/list_mountable_folders&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_mountable_folders', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3937,7 +3932,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListMountableFoldersContinue = function (arg) {
-  return this.request(&#x27;sharing/list_mountable_folders/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_mountable_folders/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3952,7 +3947,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListReceivedFiles = function (arg) {
-  return this.request(&#x27;sharing/list_received_files&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_received_files', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3967,7 +3962,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListReceivedFilesContinue = function (arg) {
-  return this.request(&#x27;sharing/list_received_files/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_received_files/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3982,7 +3977,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListSharedLinks = function (arg) {
-  return this.request(&#x27;sharing/list_shared_links&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_shared_links', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3997,7 +3992,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingModifySharedLinkSettings = function (arg) {
-  return this.request(&#x27;sharing/modify_shared_link_settings&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/modify_shared_link_settings', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4012,7 +4007,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingMountFolder = function (arg) {
-  return this.request(&#x27;sharing/mount_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/mount_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4027,7 +4022,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRelinquishFileMembership = function (arg) {
-  return this.request(&#x27;sharing/relinquish_file_membership&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/relinquish_file_membership', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4042,7 +4037,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRelinquishFolderMembership = function (arg) {
-  return this.request(&#x27;sharing/relinquish_folder_membership&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/relinquish_folder_membership', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4057,7 +4052,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRemoveFileMember = function (arg) {
-  return this.request(&#x27;sharing/remove_file_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/remove_file_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4072,7 +4067,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRemoveFileMember2 = function (arg) {
-  return this.request(&#x27;sharing/remove_file_member_2&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/remove_file_member_2', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4087,7 +4082,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRemoveFolderMember = function (arg) {
-  return this.request(&#x27;sharing/remove_folder_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/remove_folder_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4102,7 +4097,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRevokeSharedLink = function (arg) {
-  return this.request(&#x27;sharing/revoke_shared_link&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/revoke_shared_link', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4117,7 +4112,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingShareFolder = function (arg) {
-  return this.request(&#x27;sharing/share_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/share_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4132,7 +4127,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingTransferFolder = function (arg) {
-  return this.request(&#x27;sharing/transfer_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/transfer_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4147,7 +4142,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUnmountFolder = function (arg) {
-  return this.request(&#x27;sharing/unmount_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/unmount_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4162,7 +4157,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUnshareFile = function (arg) {
-  return this.request(&#x27;sharing/unshare_file&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/unshare_file', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4177,7 +4172,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUnshareFolder = function (arg) {
-  return this.request(&#x27;sharing/unshare_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/unshare_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4192,7 +4187,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUpdateFileMember = function (arg) {
-  return this.request(&#x27;sharing/update_file_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/update_file_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4207,7 +4202,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUpdateFolderMember = function (arg) {
-  return this.request(&#x27;sharing/update_folder_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/update_folder_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4222,7 +4217,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUpdateFolderPolicy = function (arg) {
-  return this.request(&#x27;sharing/update_folder_policy&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/update_folder_policy', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4237,7 +4232,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">usersGetAccount = function (arg) {
-  return this.request(&#x27;users/get_account&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('users/get_account', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4252,7 +4247,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">usersGetAccountBatch = function (arg) {
-  return this.request(&#x27;users/get_account_batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('users/get_account_batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4267,7 +4262,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">usersGetCurrentAccount = function (arg) {
-  return this.request(&#x27;users/get_current_account&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('users/get_current_account', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4282,7 +4277,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">usersGetSpaceUsage = function (arg) {
-  return this.request(&#x27;users/get_space_usage&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('users/get_space_usage', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4332,7 +4327,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
       request = this.getUploadRequest();
       break;
     default:
-      throw new Error(&#x27;Invalid request style: &#x27; + style);
+      throw new Error('Invalid request style: ' + style);
   }
 
   return request(path, args, auth, host, this.<span class="apidocCodeKeywordSpan">getAccessToken</span>(), this.selectUser);
@@ -4356,22 +4351,22 @@ DropboxBase.prototype.getRpcRequest = function () {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getAuthenticationUrl = function (redirectUri, state) {
-  var AUTH_BASE_URL = &#x27;https://www.dropbox.com/oauth2/authorize&#x27;;
+  var AUTH_BASE_URL = 'https://www.dropbox.com/oauth2/authorize';
   var clientId = this.getClientId();
   var authUrl;
   if (!clientId) {
-    throw new Error(&#x27;A client id is required. You can set the client id using .setClientId().&#x27;);
+    throw new Error('A client id is required. You can set the client id using .setClientId().');
   }
   if (!redirectUri) {
-    throw new Error(&#x27;A redirect uri is required.&#x27;);
+    throw new Error('A redirect uri is required.');
   }
 
-  authUrl = AUTH_BASE_URL + &#x27;?response_type=token&#x26;client_id=&#x27; + clientId;
+  authUrl = AUTH_BASE_URL + '?response_type=token&amp;client_id=' + clientId;
   if (redirectUri) {
-    authUrl = authUrl + &#x27;&#x26;redirect_uri=&#x27; + redirectUri;
+    authUrl = authUrl + '&amp;redirect_uri=' + redirectUri;
   }
   if (state) {
-    authUrl = authUrl + &#x27;&#x26;state=&#x27; + state;
+    authUrl = authUrl + '&amp;state=' + state;
   }
   return authUrl;
 }</pre></li>
@@ -4397,14 +4392,14 @@ DropboxBase.prototype.getRpcRequest = function () {
  * @returns {String} Url to send user to for Dropbox API authentication
  */
 DropboxBase.prototype.getAuthenticationUrl = function (redirectUri, state) {
-var AUTH_BASE_URL = &#x27;https://www.dropbox.com/oauth2/authorize&#x27;;
+var AUTH_BASE_URL = 'https://www.dropbox.com/oauth2/authorize';
 var clientId = this.<span class="apidocCodeKeywordSpan">getClientId</span>();
 var authUrl;
 if (!clientId) {
-  throw new Error(&#x27;A client id is required. You can set the client id using .setClientId().&#x27;);
+  throw new Error('A client id is required. You can set the client id using .setClientId().');
 }
 if (!redirectUri) {
-  throw new Error(&#x27;A redirect uri is required.&#x27;);
+  throw new Error('A redirect uri is required.');
 }
 ...</pre></li>
     </ul>
@@ -4420,7 +4415,7 @@ if (!redirectUri) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getDownloadRequest = function () {
   if (DropboxBase.prototype.downloadRequest === undefined) {
-    DropboxBase.prototype.downloadRequest = require(&#x27;./download-request&#x27;);
+    DropboxBase.prototype.downloadRequest = require('./download-request');
   }
 
   return DropboxBase.prototype.downloadRequest;
@@ -4439,7 +4434,7 @@ switch (style) {
     request = this.getUploadRequest();
     break;
   default:
-    throw new Error(&#x27;Invalid request style: &#x27; + style);
+    throw new Error('Invalid request style: ' + style);
 }
 ...</pre></li>
     </ul>
@@ -4455,7 +4450,7 @@ switch (style) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getRpcRequest = function () {
   if (DropboxBase.prototype.rpcRequest === undefined) {
-    DropboxBase.prototype.rpcRequest = require(&#x27;./rpc-request&#x27;);
+    DropboxBase.prototype.rpcRequest = require('./rpc-request');
   }
 
   return DropboxBase.prototype.rpcRequest;
@@ -4490,7 +4485,7 @@ switch (style) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">getUploadRequest = function () {
   if (DropboxBase.prototype.uploadRequest === undefined) {
-    DropboxBase.prototype.uploadRequest = require(&#x27;./upload-request&#x27;);
+    DropboxBase.prototype.uploadRequest = require('./upload-request');
   }
 
   return DropboxBase.prototype.uploadRequest;
@@ -4506,7 +4501,7 @@ switch (style) {
       request = this.<span class="apidocCodeKeywordSpan">getUploadRequest</span>();
       break;
     default:
-      throw new Error(&#x27;Invalid request style: &#x27; + style);
+      throw new Error('Invalid request style: ' + style);
   }
 
   return request(path, args, auth, host, this.getAccessToken(), this.selectUser);
@@ -4536,28 +4531,28 @@ switch (style) {
       request = this.getUploadRequest();
       break;
     default:
-      throw new Error(&#x27;Invalid request style: &#x27; + style);
+      throw new Error('Invalid request style: ' + style);
   }
 
   return request(path, args, auth, host, this.getAccessToken(), this.selectUser);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 /**
-* List all device sessions of a team&#x27;s member.
+* List all device sessions of a team's member.
 * @function DropboxTeam#teamDevicesListMemberDevices
 * @arg {TeamListMemberDevicesArg} arg - The request parameters.
-* @returns {Promise.&#x3c;TeamListMemberDevicesResult, Error.&#x3c;TeamListMemberDevicesError&#x3e;&#x3e;}
+* @returns {Promise.&lt;TeamListMemberDevicesResult, Error.&lt;TeamListMemberDevicesError&gt;&gt;}
 */
 routes.teamDevicesListMemberDevices = function (arg) {
- return this.<span class="apidocCodeKeywordSpan">request</span>(&#x27;team/devices/list_member_devices&#x27;, arg, &#x27;team&#x27
-;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+ return this.<span class="apidocCodeKeywordSpan">request</span>('team/devices/list_member_devices', arg, 'team'
+;, 'api', 'rpc');
 };
 
 /**
 * List all device sessions of a team.
 * @function DropboxTeam#teamDevicesListMembersDevices
 * @arg {TeamListMembersDevicesArg} arg - The request parameters.
-* @returns {Promise.&#x3c;TeamListMembersDevicesResult, Error.&#x3c;TeamListMembersDevicesError&#x3e;&#x3e;}
+* @returns {Promise.&lt;TeamListMembersDevicesResult, Error.&lt;TeamListMembersDevicesError&gt;&gt;}
 ...</pre></li>
     </ul>
 
@@ -4592,18 +4587,18 @@ routes.teamDevicesListMemberDevices = function (arg) {
  * @returns {String} Url to send user to for Dropbox API authentication
  */
 DropboxBase.prototype.getAuthenticationUrl = function (redirectUri, state) {
-var AUTH_BASE_URL = &#x27;https://www.dropbox.com/oauth2/authorize&#x27;;
+var AUTH_BASE_URL = 'https://www.dropbox.com/oauth2/authorize';
 var clientId = this.getClientId();
 var authUrl;
 if (!clientId) {
-  throw new Error(&#x27;A client id is required. You can set the client id using .<span class="apidocCodeKeywordSpan">setClientId
-</span>().&#x27;);
+  throw new Error('A client id is required. You can set the client id using .<span class="apidocCodeKeywordSpan">setClientId
+</span>().');
 }
 if (!redirectUri) {
-  throw new Error(&#x27;A redirect uri is required.&#x27;);
+  throw new Error('A redirect uri is required.');
 }
 
-authUrl = AUTH_BASE_URL + &#x27;?response_type=token&#x26;client_id=&#x27; + clientId;
+authUrl = AUTH_BASE_URL + '?response_type=token&amp;client_id=' + clientId;
 if (redirectUri) {
 ...</pre></li>
     </ul>
@@ -4668,7 +4663,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">authTokenFromOauth1 = function (arg) {
-  return this.request(&#x27;auth/token/from_oauth1&#x27;, arg, &#x27;app&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('auth/token/from_oauth1', arg, 'app', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4683,7 +4678,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">authTokenRevoke = function (arg) {
-  return this.request(&#x27;auth/token/revoke&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('auth/token/revoke', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4698,7 +4693,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesAlphaGetMetadata = function (arg) {
-  return this.request(&#x27;files/alpha/get_metadata&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/alpha/get_metadata', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4713,7 +4708,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesAlphaUpload = function (arg) {
-  return this.request(&#x27;files/alpha/upload&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/alpha/upload', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4728,7 +4723,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCopy = function (arg) {
-  return this.request(&#x27;files/copy&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/copy', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4743,7 +4738,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCopyBatch = function (arg) {
-  return this.request(&#x27;files/copy_batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/copy_batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4758,7 +4753,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCopyBatchCheck = function (arg) {
-  return this.request(&#x27;files/copy_batch/check&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/copy_batch/check', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4773,7 +4768,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCopyReferenceGet = function (arg) {
-  return this.request(&#x27;files/copy_reference/get&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/copy_reference/get', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4788,7 +4783,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCopyReferenceSave = function (arg) {
-  return this.request(&#x27;files/copy_reference/save&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/copy_reference/save', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4803,7 +4798,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesCreateFolder = function (arg) {
-  return this.request(&#x27;files/create_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/create_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4818,7 +4813,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesDelete = function (arg) {
-  return this.request(&#x27;files/delete&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/delete', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4833,7 +4828,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesDeleteBatch = function (arg) {
-  return this.request(&#x27;files/delete_batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/delete_batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4848,7 +4843,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesDeleteBatchCheck = function (arg) {
-  return this.request(&#x27;files/delete_batch/check&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/delete_batch/check', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4863,7 +4858,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesDownload = function (arg) {
-  return this.request(&#x27;files/download&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;download&#x27;);
+  return this.request('files/download', arg, 'user', 'content', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4878,7 +4873,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesGetMetadata = function (arg) {
-  return this.request(&#x27;files/get_metadata&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/get_metadata', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4893,7 +4888,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesGetPreview = function (arg) {
-  return this.request(&#x27;files/get_preview&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;download&#x27;);
+  return this.request('files/get_preview', arg, 'user', 'content', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4908,7 +4903,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesGetTemporaryLink = function (arg) {
-  return this.request(&#x27;files/get_temporary_link&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/get_temporary_link', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4923,7 +4918,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesGetThumbnail = function (arg) {
-  return this.request(&#x27;files/get_thumbnail&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;download&#x27;);
+  return this.request('files/get_thumbnail', arg, 'user', 'content', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4938,7 +4933,7 @@ if (redirectUri) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesListFolder = function (arg) {
-  return this.request(&#x27;files/list_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/list_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
@@ -4946,9 +4941,9 @@ Use with a module bundler like
 [webpack](https://github.com/webpack/webpack) or
 [browserify](http://browserify.org/):
 ```javascript
-var Dropbox = require(&#x27;dropbox&#x27;);
-var dbx = new Dropbox({ accessToken: &#x27;YOUR_ACCESS_TOKEN_HERE&#x27; });
-dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x27;})
+var Dropbox = require('dropbox');
+var dbx = new Dropbox({ accessToken: 'YOUR_ACCESS_TOKEN_HERE' });
+dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: ''})
   .then(function(response) {
     console.log(response);
   })
@@ -4969,7 +4964,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesListFolderContinue = function (arg) {
-  return this.request(&#x27;files/list_folder/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/list_folder/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4984,7 +4979,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesListFolderGetLatestCursor = function (arg) {
-  return this.request(&#x27;files/list_folder/get_latest_cursor&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/list_folder/get_latest_cursor', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4999,7 +4994,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesListFolderLongpoll = function (arg) {
-  return this.request(&#x27;files/list_folder/longpoll&#x27;, arg, &#x27;noauth&#x27;, &#x27;notify&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/list_folder/longpoll', arg, 'noauth', 'notify', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5014,7 +5009,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesListRevisions = function (arg) {
-  return this.request(&#x27;files/list_revisions&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/list_revisions', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5029,7 +5024,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesMove = function (arg) {
-  return this.request(&#x27;files/move&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/move', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5044,7 +5039,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesMoveBatch = function (arg) {
-  return this.request(&#x27;files/move_batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/move_batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5059,7 +5054,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesMoveBatchCheck = function (arg) {
-  return this.request(&#x27;files/move_batch/check&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/move_batch/check', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5074,7 +5069,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPermanentlyDelete = function (arg) {
-  return this.request(&#x27;files/permanently_delete&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/permanently_delete', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5089,7 +5084,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesAdd = function (arg) {
-  return this.request(&#x27;files/properties/add&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/add', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5104,7 +5099,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesOverwrite = function (arg) {
-  return this.request(&#x27;files/properties/overwrite&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/overwrite', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5119,7 +5114,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesRemove = function (arg) {
-  return this.request(&#x27;files/properties/remove&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/remove', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5134,7 +5129,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesTemplateGet = function (arg) {
-  return this.request(&#x27;files/properties/template/get&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/template/get', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5149,7 +5144,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesTemplateList = function (arg) {
-  return this.request(&#x27;files/properties/template/list&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/template/list', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5164,7 +5159,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesPropertiesUpdate = function (arg) {
-  return this.request(&#x27;files/properties/update&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/properties/update', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5179,7 +5174,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesRestore = function (arg) {
-  return this.request(&#x27;files/restore&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/restore', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5194,7 +5189,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesSaveUrl = function (arg) {
-  return this.request(&#x27;files/save_url&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/save_url', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5209,7 +5204,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesSaveUrlCheckJobStatus = function (arg) {
-  return this.request(&#x27;files/save_url/check_job_status&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/save_url/check_job_status', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5224,7 +5219,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesSearch = function (arg) {
-  return this.request(&#x27;files/search&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/search', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5239,7 +5234,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUpload = function (arg) {
-  return this.request(&#x27;files/upload&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/upload', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5254,7 +5249,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionAppend = function (arg) {
-  return this.request(&#x27;files/upload_session/append&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/upload_session/append', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5269,7 +5264,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionAppendV2 = function (arg) {
-  return this.request(&#x27;files/upload_session/append_v2&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/upload_session/append_v2', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5284,7 +5279,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionFinish = function (arg) {
-  return this.request(&#x27;files/upload_session/finish&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/upload_session/finish', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5299,7 +5294,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionFinishBatch = function (arg) {
-  return this.request(&#x27;files/upload_session/finish_batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/upload_session/finish_batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5314,7 +5309,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionFinishBatchCheck = function (arg) {
-  return this.request(&#x27;files/upload_session/finish_batch/check&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('files/upload_session/finish_batch/check', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5329,7 +5324,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">filesUploadSessionStart = function (arg) {
-  return this.request(&#x27;files/upload_session/start&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;upload&#x27;);
+  return this.request('files/upload_session/start', arg, 'user', 'content', 'upload');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5344,7 +5339,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsArchive = function (arg) {
-  return this.request(&#x27;paper/docs/archive&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/archive', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5359,7 +5354,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsDownload = function (arg) {
-  return this.request(&#x27;paper/docs/download&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;download&#x27;);
+  return this.request('paper/docs/download', arg, 'user', 'api', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5374,7 +5369,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsFolderUsersList = function (arg) {
-  return this.request(&#x27;paper/docs/folder_users/list&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/folder_users/list', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5389,7 +5384,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsFolderUsersListContinue = function (arg) {
-  return this.request(&#x27;paper/docs/folder_users/list/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/folder_users/list/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5404,7 +5399,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsGetFolderInfo = function (arg) {
-  return this.request(&#x27;paper/docs/get_folder_info&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/get_folder_info', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5419,7 +5414,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsList = function (arg) {
-  return this.request(&#x27;paper/docs/list&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/list', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5434,7 +5429,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsListContinue = function (arg) {
-  return this.request(&#x27;paper/docs/list/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/list/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5449,7 +5444,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsPermanentlyDelete = function (arg) {
-  return this.request(&#x27;paper/docs/permanently_delete&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/permanently_delete', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5464,7 +5459,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsSharingPolicyGet = function (arg) {
-  return this.request(&#x27;paper/docs/sharing_policy/get&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/sharing_policy/get', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5479,7 +5474,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsSharingPolicySet = function (arg) {
-  return this.request(&#x27;paper/docs/sharing_policy/set&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/sharing_policy/set', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5494,7 +5489,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsUsersAdd = function (arg) {
-  return this.request(&#x27;paper/docs/users/add&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/users/add', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5509,7 +5504,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsUsersList = function (arg) {
-  return this.request(&#x27;paper/docs/users/list&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/users/list', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5524,7 +5519,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsUsersListContinue = function (arg) {
-  return this.request(&#x27;paper/docs/users/list/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/users/list/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5539,7 +5534,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">paperDocsUsersRemove = function (arg) {
-  return this.request(&#x27;paper/docs/users/remove&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('paper/docs/users/remove', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5554,7 +5549,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingAddFileMember = function (arg) {
-  return this.request(&#x27;sharing/add_file_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/add_file_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5569,7 +5564,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingAddFolderMember = function (arg) {
-  return this.request(&#x27;sharing/add_folder_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/add_folder_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5584,7 +5579,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingChangeFileMemberAccess = function (arg) {
-  return this.request(&#x27;sharing/change_file_member_access&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/change_file_member_access', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5599,7 +5594,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingCheckJobStatus = function (arg) {
-  return this.request(&#x27;sharing/check_job_status&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/check_job_status', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5614,7 +5609,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingCheckRemoveMemberJobStatus = function (arg) {
-  return this.request(&#x27;sharing/check_remove_member_job_status&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/check_remove_member_job_status', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5629,7 +5624,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingCheckShareJobStatus = function (arg) {
-  return this.request(&#x27;sharing/check_share_job_status&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/check_share_job_status', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5644,7 +5639,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingCreateSharedLink = function (arg) {
-  return this.request(&#x27;sharing/create_shared_link&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/create_shared_link', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5659,7 +5654,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingCreateSharedLinkWithSettings = function (arg) {
-  return this.request(&#x27;sharing/create_shared_link_with_settings&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/create_shared_link_with_settings', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5674,7 +5669,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetFileMetadata = function (arg) {
-  return this.request(&#x27;sharing/get_file_metadata&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/get_file_metadata', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5689,7 +5684,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetFileMetadataBatch = function (arg) {
-  return this.request(&#x27;sharing/get_file_metadata/batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/get_file_metadata/batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5704,7 +5699,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetFolderMetadata = function (arg) {
-  return this.request(&#x27;sharing/get_folder_metadata&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/get_folder_metadata', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5719,7 +5714,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetSharedLinkFile = function (arg) {
-  return this.request(&#x27;sharing/get_shared_link_file&#x27;, arg, &#x27;user&#x27;, &#x27;content&#x27;, &#x27;download&#x27;);
+  return this.request('sharing/get_shared_link_file', arg, 'user', 'content', 'download');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5734,7 +5729,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetSharedLinkMetadata = function (arg) {
-  return this.request(&#x27;sharing/get_shared_link_metadata&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/get_shared_link_metadata', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5749,7 +5744,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingGetSharedLinks = function (arg) {
-  return this.request(&#x27;sharing/get_shared_links&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/get_shared_links', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5764,7 +5759,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFileMembers = function (arg) {
-  return this.request(&#x27;sharing/list_file_members&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_file_members', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5779,7 +5774,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFileMembersBatch = function (arg) {
-  return this.request(&#x27;sharing/list_file_members/batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_file_members/batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5794,7 +5789,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFileMembersContinue = function (arg) {
-  return this.request(&#x27;sharing/list_file_members/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_file_members/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5809,7 +5804,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFolderMembers = function (arg) {
-  return this.request(&#x27;sharing/list_folder_members&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_folder_members', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5824,7 +5819,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFolderMembersContinue = function (arg) {
-  return this.request(&#x27;sharing/list_folder_members/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_folder_members/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5839,7 +5834,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFolders = function (arg) {
-  return this.request(&#x27;sharing/list_folders&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_folders', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5854,7 +5849,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListFoldersContinue = function (arg) {
-  return this.request(&#x27;sharing/list_folders/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_folders/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5869,7 +5864,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListMountableFolders = function (arg) {
-  return this.request(&#x27;sharing/list_mountable_folders&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_mountable_folders', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5884,7 +5879,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListMountableFoldersContinue = function (arg) {
-  return this.request(&#x27;sharing/list_mountable_folders/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_mountable_folders/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5899,7 +5894,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListReceivedFiles = function (arg) {
-  return this.request(&#x27;sharing/list_received_files&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_received_files', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5914,7 +5909,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListReceivedFilesContinue = function (arg) {
-  return this.request(&#x27;sharing/list_received_files/continue&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_received_files/continue', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5929,7 +5924,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingListSharedLinks = function (arg) {
-  return this.request(&#x27;sharing/list_shared_links&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/list_shared_links', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5944,7 +5939,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingModifySharedLinkSettings = function (arg) {
-  return this.request(&#x27;sharing/modify_shared_link_settings&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/modify_shared_link_settings', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5959,7 +5954,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingMountFolder = function (arg) {
-  return this.request(&#x27;sharing/mount_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/mount_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5974,7 +5969,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRelinquishFileMembership = function (arg) {
-  return this.request(&#x27;sharing/relinquish_file_membership&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/relinquish_file_membership', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5989,7 +5984,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRelinquishFolderMembership = function (arg) {
-  return this.request(&#x27;sharing/relinquish_folder_membership&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/relinquish_folder_membership', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6004,7 +5999,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRemoveFileMember = function (arg) {
-  return this.request(&#x27;sharing/remove_file_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/remove_file_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6019,7 +6014,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRemoveFileMember2 = function (arg) {
-  return this.request(&#x27;sharing/remove_file_member_2&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/remove_file_member_2', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6034,7 +6029,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRemoveFolderMember = function (arg) {
-  return this.request(&#x27;sharing/remove_folder_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/remove_folder_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6049,7 +6044,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingRevokeSharedLink = function (arg) {
-  return this.request(&#x27;sharing/revoke_shared_link&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/revoke_shared_link', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6064,7 +6059,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingShareFolder = function (arg) {
-  return this.request(&#x27;sharing/share_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/share_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6079,7 +6074,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingTransferFolder = function (arg) {
-  return this.request(&#x27;sharing/transfer_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/transfer_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6094,7 +6089,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUnmountFolder = function (arg) {
-  return this.request(&#x27;sharing/unmount_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/unmount_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6109,7 +6104,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUnshareFile = function (arg) {
-  return this.request(&#x27;sharing/unshare_file&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/unshare_file', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6124,7 +6119,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUnshareFolder = function (arg) {
-  return this.request(&#x27;sharing/unshare_folder&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/unshare_folder', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6139,7 +6134,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUpdateFileMember = function (arg) {
-  return this.request(&#x27;sharing/update_file_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/update_file_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6154,7 +6149,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUpdateFolderMember = function (arg) {
-  return this.request(&#x27;sharing/update_folder_member&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/update_folder_member', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6169,7 +6164,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">sharingUpdateFolderPolicy = function (arg) {
-  return this.request(&#x27;sharing/update_folder_policy&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('sharing/update_folder_policy', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6184,7 +6179,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">usersGetAccount = function (arg) {
-  return this.request(&#x27;users/get_account&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('users/get_account', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6199,7 +6194,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">usersGetAccountBatch = function (arg) {
-  return this.request(&#x27;users/get_account_batch&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('users/get_account_batch', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6214,7 +6209,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">usersGetCurrentAccount = function (arg) {
-  return this.request(&#x27;users/get_current_account&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('users/get_current_account', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6229,7 +6224,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">usersGetSpaceUsage = function (arg) {
-  return this.request(&#x27;users/get_space_usage&#x27;, arg, &#x27;user&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('users/get_space_usage', arg, 'user', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6249,7 +6244,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamDevicesListMemberDevices = function (arg) {
-  return this.request(&#x27;team/devices/list_member_devices&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/devices/list_member_devices', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6264,7 +6259,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamDevicesListMembersDevices = function (arg) {
-  return this.request(&#x27;team/devices/list_members_devices&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/devices/list_members_devices', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6279,7 +6274,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamDevicesListTeamDevices = function (arg) {
-  return this.request(&#x27;team/devices/list_team_devices&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/devices/list_team_devices', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6294,7 +6289,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamDevicesRevokeDeviceSession = function (arg) {
-  return this.request(&#x27;team/devices/revoke_device_session&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/devices/revoke_device_session', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6309,7 +6304,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamDevicesRevokeDeviceSessionBatch = function (arg) {
-  return this.request(&#x27;team/devices/revoke_device_session_batch&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/devices/revoke_device_session_batch', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6324,7 +6319,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGetInfo = function (arg) {
-  return this.request(&#x27;team/get_info&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/get_info', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6339,7 +6334,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsCreate = function (arg) {
-  return this.request(&#x27;team/groups/create&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/create', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6354,7 +6349,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsDelete = function (arg) {
-  return this.request(&#x27;team/groups/delete&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/delete', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6369,7 +6364,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsGetInfo = function (arg) {
-  return this.request(&#x27;team/groups/get_info&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/get_info', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6384,7 +6379,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsJobStatusGet = function (arg) {
-  return this.request(&#x27;team/groups/job_status/get&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/job_status/get', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6399,7 +6394,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsList = function (arg) {
-  return this.request(&#x27;team/groups/list&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/list', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6414,7 +6409,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsListContinue = function (arg) {
-  return this.request(&#x27;team/groups/list/continue&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/list/continue', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6429,7 +6424,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsMembersAdd = function (arg) {
-  return this.request(&#x27;team/groups/members/add&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/members/add', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6444,7 +6439,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsMembersList = function (arg) {
-  return this.request(&#x27;team/groups/members/list&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/members/list', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6459,7 +6454,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsMembersListContinue = function (arg) {
-  return this.request(&#x27;team/groups/members/list/continue&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/members/list/continue', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6474,7 +6469,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsMembersRemove = function (arg) {
-  return this.request(&#x27;team/groups/members/remove&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/members/remove', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6489,7 +6484,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsMembersSetAccessType = function (arg) {
-  return this.request(&#x27;team/groups/members/set_access_type&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/members/set_access_type', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6504,7 +6499,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamGroupsUpdate = function (arg) {
-  return this.request(&#x27;team/groups/update&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/groups/update', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6519,7 +6514,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamLinkedAppsListMemberLinkedApps = function (arg) {
-  return this.request(&#x27;team/linked_apps/list_member_linked_apps&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/linked_apps/list_member_linked_apps', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6534,7 +6529,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamLinkedAppsListMembersLinkedApps = function (arg) {
-  return this.request(&#x27;team/linked_apps/list_members_linked_apps&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/linked_apps/list_members_linked_apps', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6549,7 +6544,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamLinkedAppsListTeamLinkedApps = function (arg) {
-  return this.request(&#x27;team/linked_apps/list_team_linked_apps&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/linked_apps/list_team_linked_apps', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6564,7 +6559,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamLinkedAppsRevokeLinkedApp = function (arg) {
-  return this.request(&#x27;team/linked_apps/revoke_linked_app&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/linked_apps/revoke_linked_app', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6579,7 +6574,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamLinkedAppsRevokeLinkedAppBatch = function (arg) {
-  return this.request(&#x27;team/linked_apps/revoke_linked_app_batch&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/linked_apps/revoke_linked_app_batch', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6594,7 +6589,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersAdd = function (arg) {
-  return this.request(&#x27;team/members/add&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/add', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6609,7 +6604,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersAddJobStatusGet = function (arg) {
-  return this.request(&#x27;team/members/add/job_status/get&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/add/job_status/get', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6624,7 +6619,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersGetInfo = function (arg) {
-  return this.request(&#x27;team/members/get_info&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/get_info', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6639,7 +6634,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersList = function (arg) {
-  return this.request(&#x27;team/members/list&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/list', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6654,7 +6649,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersListContinue = function (arg) {
-  return this.request(&#x27;team/members/list/continue&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/list/continue', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6669,7 +6664,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersRecover = function (arg) {
-  return this.request(&#x27;team/members/recover&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/recover', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6684,7 +6679,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersRemove = function (arg) {
-  return this.request(&#x27;team/members/remove&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/remove', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6699,7 +6694,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersRemoveJobStatusGet = function (arg) {
-  return this.request(&#x27;team/members/remove/job_status/get&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/remove/job_status/get', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6714,7 +6709,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersSendWelcomeEmail = function (arg) {
-  return this.request(&#x27;team/members/send_welcome_email&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/send_welcome_email', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6729,7 +6724,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersSetAdminPermissions = function (arg) {
-  return this.request(&#x27;team/members/set_admin_permissions&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/set_admin_permissions', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6744,7 +6739,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersSetProfile = function (arg) {
-  return this.request(&#x27;team/members/set_profile&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/set_profile', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6759,7 +6754,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersSuspend = function (arg) {
-  return this.request(&#x27;team/members/suspend&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/suspend', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6774,7 +6769,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamMembersUnsuspend = function (arg) {
-  return this.request(&#x27;team/members/unsuspend&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/members/unsuspend', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6789,7 +6784,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamPropertiesTemplateAdd = function (arg) {
-  return this.request(&#x27;team/properties/template/add&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/properties/template/add', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6804,7 +6799,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamPropertiesTemplateGet = function (arg) {
-  return this.request(&#x27;team/properties/template/get&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/properties/template/get', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6819,7 +6814,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamPropertiesTemplateList = function (arg) {
-  return this.request(&#x27;team/properties/template/list&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/properties/template/list', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6834,7 +6829,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamPropertiesTemplateUpdate = function (arg) {
-  return this.request(&#x27;team/properties/template/update&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/properties/template/update', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6849,7 +6844,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamReportsGetActivity = function (arg) {
-  return this.request(&#x27;team/reports/get_activity&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/reports/get_activity', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6864,7 +6859,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamReportsGetDevices = function (arg) {
-  return this.request(&#x27;team/reports/get_devices&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/reports/get_devices', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6879,7 +6874,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamReportsGetMembership = function (arg) {
-  return this.request(&#x27;team/reports/get_membership&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/reports/get_membership', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6894,7 +6889,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamReportsGetStorage = function (arg) {
-  return this.request(&#x27;team/reports/get_storage&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/reports/get_storage', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6909,7 +6904,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamTeamFolderActivate = function (arg) {
-  return this.request(&#x27;team/team_folder/activate&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/team_folder/activate', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6924,7 +6919,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamTeamFolderArchive = function (arg) {
-  return this.request(&#x27;team/team_folder/archive&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/team_folder/archive', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6939,7 +6934,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamTeamFolderArchiveCheck = function (arg) {
-  return this.request(&#x27;team/team_folder/archive/check&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/team_folder/archive/check', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6954,7 +6949,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamTeamFolderCreate = function (arg) {
-  return this.request(&#x27;team/team_folder/create&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/team_folder/create', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6969,7 +6964,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamTeamFolderGetInfo = function (arg) {
-  return this.request(&#x27;team/team_folder/get_info&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/team_folder/get_info', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6984,7 +6979,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamTeamFolderList = function (arg) {
-  return this.request(&#x27;team/team_folder/list&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/team_folder/list', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -6999,7 +6994,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamTeamFolderPermanentlyDelete = function (arg) {
-  return this.request(&#x27;team/team_folder/permanently_delete&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/team_folder/permanently_delete', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -7014,7 +7009,7 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">teamTeamFolderRename = function (arg) {
-  return this.request(&#x27;team/team_folder/rename&#x27;, arg, &#x27;team&#x27;, &#x27;api&#x27;, &#x27;rpc&#x27;);
+  return this.request('team/team_folder/rename', arg, 'team', 'api', 'rpc');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -7028,3 +7023,4 @@ dbx.<span class="apidocCodeKeywordSpan">filesListFolder</span>({path: &#x27;&#x2
     ]
 </div>
 </div>
+</body></html>

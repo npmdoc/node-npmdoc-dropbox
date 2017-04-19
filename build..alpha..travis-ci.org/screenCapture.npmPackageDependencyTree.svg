@@ -1,29 +1,32 @@
-<svg height="414" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="414" fill="#555" width="720"></rect>
+<svg height="462" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="462" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">└─┬ dropbox@2.5.2 </tspan>
-<tspan x="10" y="42">  ├── es6-promise@3.3.1 </tspan>
-<tspan x="10" y="58">  └─┬ superagent@1.8.5 </tspan>
-<tspan x="10" y="74">    ├── component-emitter@1.2.1 </tspan>
-<tspan x="10" y="90">    ├── cookiejar@2.0.6 </tspan>
-<tspan x="10" y="106">    ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="122">    │ └── ms@0.7.2 </tspan>
-<tspan x="10" y="138">    ├── extend@3.0.0 </tspan>
-<tspan x="10" y="154">    ├─┬ form-data@1.0.0-rc3 </tspan>
-<tspan x="10" y="170">    │ ├── async@1.5.2 </tspan>
-<tspan x="10" y="186">    │ ├─┬ combined-stream@1.0.5 </tspan>
-<tspan x="10" y="202">    │ │ └── delayed-stream@1.0.0 </tspan>
-<tspan x="10" y="218">    │ └─┬ mime-types@2.1.15 </tspan>
-<tspan x="10" y="234">    │   └── mime-db@1.27.0 </tspan>
-<tspan x="10" y="250">    ├── formidable@1.0.17 </tspan>
-<tspan x="10" y="266">    ├── methods@1.1.2 </tspan>
-<tspan x="10" y="282">    ├── mime@1.3.4 </tspan>
-<tspan x="10" y="298">    ├── qs@2.3.3 </tspan>
-<tspan x="10" y="314">    ├─┬ readable-stream@1.0.27-1 </tspan>
-<tspan x="10" y="330">    │ ├── core-util-is@1.0.2 </tspan>
-<tspan x="10" y="346">    │ ├── inherits@2.0.3 </tspan>
-<tspan x="10" y="362">    │ ├── isarray@0.0.1 </tspan>
-<tspan x="10" y="378">    │ └── string_decoder@0.10.31 </tspan>
-<tspan x="10" y="394">    └── reduce-component@1.0.1</tspan>
+<tspan x="10" y="26">3 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">└─┬ dropbox@2.5.2 </tspan>
+<tspan x="10" y="90">  ├── es6-promise@3.3.1 </tspan>
+<tspan x="10" y="106">  └─┬ superagent@1.8.5 </tspan>
+<tspan x="10" y="122">    ├── component-emitter@1.2.1 </tspan>
+<tspan x="10" y="138">    ├── cookiejar@2.0.6 </tspan>
+<tspan x="10" y="154">    ├─┬ debug@2.6.3 </tspan>
+<tspan x="10" y="170">    │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="186">    ├── extend@3.0.0 </tspan>
+<tspan x="10" y="202">    ├─┬ form-data@1.0.0-rc3 </tspan>
+<tspan x="10" y="218">    │ ├── async@1.5.2 </tspan>
+<tspan x="10" y="234">    │ ├─┬ combined-stream@1.0.5 </tspan>
+<tspan x="10" y="250">    │ │ └── delayed-stream@1.0.0 </tspan>
+<tspan x="10" y="266">    │ └─┬ mime-types@2.1.15 </tspan>
+<tspan x="10" y="282">    │   └── mime-db@1.27.0 </tspan>
+<tspan x="10" y="298">    ├── formidable@1.0.17 </tspan>
+<tspan x="10" y="314">    ├── methods@1.1.2 </tspan>
+<tspan x="10" y="330">    ├── mime@1.3.4 </tspan>
+<tspan x="10" y="346">    ├── qs@2.3.3 </tspan>
+<tspan x="10" y="362">    ├─┬ readable-stream@1.0.27-1 </tspan>
+<tspan x="10" y="378">    │ ├── core-util-is@1.0.2 </tspan>
+<tspan x="10" y="394">    │ ├── inherits@2.0.3 </tspan>
+<tspan x="10" y="410">    │ ├── isarray@0.0.1 </tspan>
+<tspan x="10" y="426">    │ └── string_decoder@0.10.31 </tspan>
+<tspan x="10" y="442">    └── reduce-component@1.0.1</tspan>
 </text>
 </svg>
